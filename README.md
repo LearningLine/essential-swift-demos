@@ -43,19 +43,19 @@ This first module introduces developers to the Swift ecosystem. You will learn w
 
 Swift is a modern language which borrows many of the best features from successful, established languages of the day such as Python and C#. Swift values readability and productivity over terseness. In this lesson, you will get a quick introduction to the major language features. We will see how to define variables and understand Swift's variable scope. Next up is a variety of flow control constructs (if, while, etc.). We will pay special attention to loops in Swift, which has traditional for and while loops but also adds rich iteration and range based loop constructs. Finally we discuss how to import external libraries to extend our capabilities.
 
+**Optionals**
+
+Unlike most languages, Swift types cannot be null. Even though Swift has both value types and reference types, they must have a value. To specifically allow for missing values, Swift introduces optionals and optional chaining to work with these types. Using optional chaining you can entirely avoid those one-line if statements required to juggle null optionals and reference types.
+
 **Types and collections**
 
 Swift has a rich type system. This lesson explores some of the fundamental types and tips for working with them (numbers, strings, dates, etc.). Next we move on to the collection classes (arrays and dictionaries). These types have very powerful features and only some of them are covered in this lesson (saving the best for deeper examination later). You will learn to splice (via subscript ranges), combine, and generally manipulate these collections here.
 
+**Day 2**
+
 **Functions and closures**
 
 Functions, along with classes, are key building blocks of any self-respecting language. Swift's support for functions is very sophisticated. We start by defining basic functions and discussing parameters, return values, and related concepts. Unlike many languages, you will see that Swift functions naturally support returning multiple return values and assigning them all in one step. You will see how to define functions with varying numbers of parameters, how to create named parameters, and work with default and optional parameters. Finally we look at some of the best features of functions enabling modern, concise programming techniques: closures, expressions, and lambdas in Swift.
-
-**Day 2**
-
-**Optionals, Optional Chaining, and Generics**
-
-The Swift language adds two clean and powerful features to the developer's toolkit: optional chaining and generics. Unlike most languages, Swift types cannot be null / nil. Even though Swift has both value types and reference types, they must have a value. To specifically allow for missing values, Swift introduces optionals and optional chaining to work with these types. Using optional chaining you can entirely avoid those one-line if statements required to juggle null / nil optionals and reference types. We will also cover generics, a powerful feature to use strong-typed features in a general way.
 
 **Classes and Structures**
 
@@ -68,15 +68,3 @@ Next up are two powerful features for extending, adapting, and reusing types. We
 **Memory management**
 
 In this module, you will learn the ins-and-outs of memory management in Swift. Swift has two broad categories of types (reference types and value types) and you will see they differ dramatically in how memory is managed for these types. You will learn when and how to use each of these and how to identify them. We will see, that for reference types, Swift uses Automatic Reference Counting (ARC) to track and manage your app’s memory usage. In most cases, this means that memory management 'just works' in Swift, and you do not need to think about memory management yourself. We will discuss various types of references and see how they affect memory management (strong, weak, and unowned references) references.
-
-**Day 3**
-
-**Day of iOS**
-
-Now that you're proficient in the Swift language, it's time to look at some real-world applications on the iOS platform. We will spend this day exploring how to build iOS applications with Swift. Learning about storyboards, UIViewControllers, and the various UI widgets in UIKit.
-
-**Day 4**
-
-**Day of OS X**
-
-While iOS is a popular platform, Swift is also a first class environment for building OS X applications. You will learn about building OS X using Xcode and Swift and see several real-world examples throughout the lessons.
