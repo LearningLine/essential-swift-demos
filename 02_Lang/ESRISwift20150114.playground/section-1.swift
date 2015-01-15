@@ -10,3 +10,10 @@ case "Paul", "Bradley":
 default:
     println("Hello \(name)")
 }
+
+
+var x: Int?
+
+var z = x ?? 3
+
+var y = x != nil ? x! : 3
